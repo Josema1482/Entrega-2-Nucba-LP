@@ -16,6 +16,10 @@ html {
     margin: 0 auto;
 }
 
+header{
+    width: 100%;
+}
+
 .navbar{
     background-color: #ffddd2;
     height: 80px;
@@ -26,7 +30,6 @@ html {
     padding-right: 50px;
     margin-top: 20px;
     border-bottom: 2px #edf6f9 solid;
-    width: 100%;
 }
 
 .navbar-list-options{
