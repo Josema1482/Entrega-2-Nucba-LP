@@ -12,8 +12,8 @@ html {
 }
 
 .container{
-    margin-left: 100px;
-    margin-right: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .navbar{
@@ -26,6 +26,7 @@ html {
     padding-right: 50px;
     margin-top: 20px;
     border-bottom: 2px #edf6f9 solid;
+    width: 100%;
 }
 
 .navbar-list-options{
