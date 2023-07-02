@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--color1);
+}
+
+:root{
+    --color1: #F6F7C1;
+    --color2: #BEF0CB;
+    --color3: #D1FFF3;
+    --color4: #C1AEFC;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*===========================NAVBAR===========================*/
+
+.navbar{
+    background-color: var(--color4);
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-bottom: 2px var(--color1) solid;
+    width: 100%;
+}
+
+.navbar-list-options{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    font-weight: 600;
+    }
+
+.navbar-list-options li a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo img{
+    height: 50px;
+    width: 50px;
+}
+
+.navbar-bottom{
+    background-color: var(--color4);
+    height: 15px;
+    width: 100%;
+}
+
+/*===========================HERO===========================*/
+
+#hero{
+    background-color: var(--color4);
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 70px;
+    text-align: justify;
+}
+
+.hero-img{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px 70px;
+}
+
+.hero-img img{
+    width: 110%;
+}
+
+.hero-buttons{
+    display: flex;
+    gap: 20px;
+}
+
+.hero-buttons .hero-button-call{
+    text-decoration: none;
+    border: 1px solid var(--color1);
+    border-radius: 40px;
+    padding: 10px;
+    color: var(--color4);
+    background-color: var(--color1);
+}
+
+.hero-buttons .hero-button-read{
+    text-decoration: none;
+    border: 1px solid var(--color1);
+    border-radius: 40px;
+    padding: 10px;
+    color: var(--color1);
+}
+
+.about-content{
+    background-color: var(--color4);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.about-content p,
+.about-content h2
+{
+    width: 80%;    
+}
+
+.about-content p{
+    text-align: justify;
+}
+
