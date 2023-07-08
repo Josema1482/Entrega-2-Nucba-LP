@@ -31,9 +31,10 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 50px;
-    padding-right: 50px;
-    border-bottom: 2px var(--color1) solid;
+    padding-left: 70px;
+    padding-right: 70px;
+    position: fixed;
+    top: 0;
     width: 100%;
 }
 
@@ -54,17 +55,13 @@ html {
     width: 50px;
 }
 
-.navbar-bottom{
-    background-color: var(--color4);
-    height: 15px;
-    width: 100%;
-}
+
 
 /*===========================HERO===========================*/
 
 #hero{
     background-color: var(--color4);
-    margin-top: 20px;
+    margin-top: 80px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -137,3 +134,93 @@ html {
     text-align: justify;
 }
 
+/*===========================SERVICIOS===========================*/
+
+#services{
+    background-color: var(--color4);
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 40px 0;
+}
+
+.services-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+    
+}
+
+.services-card{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 3px solid var(--color1);
+    padding: 25px 40px 25px 40px;
+    border-radius: 20px;
+}
+
+.services-card img{
+    width: 30%;    
+}
+
+/*===========================CONTACTO===========================*/
+
+#contact{
+    background-color: var(--color4);
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.contact-container-data{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-container-img{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 20px 0;
+}
+
+.contact-img{
+    width: 570px;
+}
+
+.data-redes{
+    display: flex;
+    gap: 15px;
+}
+
+.data-redes img{
+    width: 40px;
+}
+
+.contact-data{
+    display: flex;
+    gap: 30px;
+    line-height: 35px;
+}
+
+.contact-data-ejemplo1,
+.contact-data-ejemplo2{
+list-style-type: none;
+}
+
+.contact-container-data h3{
+    font-size: 30px;
+}
+
+.contact-container-data h4{
+    font-size: 20px;
+}
