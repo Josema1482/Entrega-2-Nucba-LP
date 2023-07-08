@@ -90,7 +90,7 @@ header{
 }
 
 .hero-img img{
-    width: 110%;
+    width: 500px;
 }
 
 .hero-buttons{
@@ -183,7 +183,7 @@ header{
     width: 30%;    
 }
 
-/*===========================CONTACTO===========================*/
+/*===========================CONTACT===========================*/
 
 #contact{
     background-color: var(--color4);
@@ -269,4 +269,106 @@ footer p span{
     bottom: 30px;
     right: 30px;
     width: 70px;
+}
+
+@media(max-width: 475px ){
+#hero{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    width: 100%;
+    padding: 10px 0 10px 0;
+   
+}
+.hero-text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-img{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-img img{
+    width: 350px;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+}
+#contact{
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0 10px 0;
+}
+
+.data-redes img{
+    width: 35px;
+}
+
+.contact-img{
+    width: 300px;
+}
+
+.data-redes li{
+    font-size: 1rem;
+}
+
+.contact-data{
+    justify-content: center;
+}
+
+.contact-container-data h3{
+    font-size: 2rem;
+}
+
+.contact-data-ejemplo1,
+.contact-data-ejemplo2 li{
+font-size: 12px;
+}
+
+.contact-container-data{
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    width: 100%;
+}
+
+#services{
+    display: flex;
+    width: 100%;
+    padding: 10px 0 10px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-container{
+    width: 100%;
+    flex-direction: column;
+}
+
+.services-card{
+    width: 60%;
+}
+
+.services-subtitle{
+    width: 87%;
+}
+.whatsapp img{
+    width: 50px;
+    bottom: 50px;
+}
 }
