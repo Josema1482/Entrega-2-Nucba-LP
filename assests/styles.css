@@ -9,6 +9,7 @@
 html {
     font-family: 'Poppins', sans-serif;
     background-color: var(--color1);
+    
 }
 
 :root{
@@ -24,18 +25,24 @@ html {
 }
 
 /*===========================NAVBAR===========================*/
-
-.navbar{
-    background-color: var(--color4);
-    height: 70px;
+header{
+    /*background-color: var(--color4);*/
+    width: 100%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 70px;
-    padding-right: 70px;
+    justify-content: space-around;
     position: fixed;
     top: 0;
-    width: 100%;
+    padding: 10px 0;
+    gap: 350px;
+
+    background-color: rgba(193, 174, 252, 1);
+    background-image: linear-gradient(180deg, rgba(193, 174, 252, 1) 15%, rgba(246, 247, 193, 1) 100%);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .navbar-list-options{
@@ -55,16 +62,14 @@ html {
     width: 50px;
 }
 
-
-
 /*===========================HERO===========================*/
 
 #hero{
     background-color: var(--color4);
-    margin-top: 80px;
+    margin-top: 100px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-around;    
 }
 
 .hero-text{
@@ -91,6 +96,10 @@ html {
 .hero-buttons{
     display: flex;
     gap: 20px;
+}
+
+#hero h1{
+    font-size: 2.5rem;
 }
 
 .hero-buttons .hero-button-call{
@@ -121,7 +130,6 @@ html {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    
 }
 
 .about-content p,
@@ -134,6 +142,10 @@ html {
     text-align: justify;
 }
 
+#about h2{
+    font-size: 2rem;
+}
+
 /*===========================SERVICIOS===========================*/
 
 #services{
@@ -143,13 +155,16 @@ html {
     padding: 40px 0;
 }
 
+#services h2{
+    font-size: 2rem;
+}
+
 .services-container{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
-    margin-top: 50px;
-    
+    margin-top: 50px;    
 }
 
 .services-card{
@@ -161,7 +176,7 @@ html {
     gap: 20px;
     border: 3px solid var(--color1);
     padding: 25px 40px 25px 40px;
-    border-radius: 20px;
+    border-radius: 0px 50px 0px 50px;
 }
 
 .services-card img{
@@ -174,7 +189,6 @@ html {
     background-color: var(--color4);
     display: flex;
     margin-bottom: 20px;
-
 }
 
 .contact-container-data{
@@ -218,9 +232,41 @@ list-style-type: none;
 }
 
 .contact-container-data h3{
-    font-size: 30px;
+    font-size: 3rem;
 }
 
 .contact-container-data h4{
     font-size: 20px;
+}
+
+/*===========================FOOTER===========================*/
+
+footer{
+/*background-color: var(--color4);*/
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding-top: 10px;
+padding-bottom: 10px;
+
+background-color: rgba(246, 247, 193, 1);
+background-image: linear-gradient(180deg, rgba(246, 247, 193, 1) 0%, rgba(193, 174, 252, 1) 100%);
+}
+
+footer img{
+    width: 50px;
+    height: 50px;
+}
+
+footer p span{
+    font-weight: 800;
+}
+
+/*===========================BOTON WHATSAPP===========================*/
+
+.whatsapp img{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 70px;
 }
