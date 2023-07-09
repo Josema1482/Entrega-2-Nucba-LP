@@ -271,7 +271,7 @@ footer p span{
     width: 70px;
 }
 
-@media(max-width: 475px ){
+@media(max-width: 375px ){
 #hero{
     flex-direction: column;
     align-items: center;
@@ -300,6 +300,11 @@ footer p span{
     width: 350px;
     align-items: center;
     justify-content: center;
+}
+
+.hero-buttons .hero-button-read,
+.hero-buttons .hero-button-call{
+    font-size: 12px;
 }
 
 header{
