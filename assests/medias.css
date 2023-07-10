@@ -47,7 +47,13 @@
     .contact-img{
         width: 285px;
     }
-    
+
+    .whatsapp img{
+    position: fixed;
+    bottom: 25px;
+    right: 15px;
+    width: 60px;
+    }
     
     }
 
@@ -153,6 +159,7 @@
         }
         .whatsapp img{
             width: 50px;
-            bottom: 50px;
+            bottom: 15px;
+            right: 10px;
         }
         }
