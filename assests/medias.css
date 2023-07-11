@@ -57,10 +57,72 @@
     
     }
 
-@media(max-width: 375px){
+@media(max-width: 425px){
     header{
         flex-direction: column;
         gap: 0;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    #hero{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+        width: 100%;
+        padding: 10px 0 10px 0;
+}
+#hero img{
+    width: 390px;
+}
+
+.hero-text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#services{
+    display: flex;
+    width: 100%;
+    padding: 10px 0 10px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-container{
+    width: 100%;
+    flex-direction: column;
+}
+
+.services-card{
+    width: 75%;
+}
+
+#contact{
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0 10px 0;
+}
+
+.contact-container-data{
+    width: 100%;
+}
+
+.contact-img{
+    width: 390px;
+}
+}
+
+@media(max-width: 375px){
+    header{
+        flex-direction: column;
+        gap: 15px;
         align-items: center;
         justify-content: center;
     }
@@ -88,7 +150,7 @@
         }
         
         .hero-img img{
-            width: 350px;
+            width: 300px;
             align-items: center;
             justify-content: center;
         }
@@ -151,7 +213,7 @@
         }
         
         .services-card{
-            width: 85%;
+            width: 75%;
         }
         
         .services-subtitle{
@@ -163,3 +225,40 @@
             right: 10px;
         }
         }
+
+@media(max-width: 320px){
+    .navbar-list-options{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 0 10px 0 10px;
+    }
+
+    #hero h1{
+        text-align: center;
+    }
+
+    .hero-text{
+        margin-top: 50px;
+    }
+
+    .hero-img img{
+        display: none;
+    }
+
+    .services-card{
+        width: 70%;
+    }
+
+    .services-container{
+        margin-top: 20px;
+    }
+
+    .contact-data{
+        flex-direction: column;
+    }
+
+    .contact-img{
+        display: none;
+    }
+}
