@@ -121,6 +121,21 @@ padding: 0 30px;
         gap: 190px;
     }
 
+    .hero-img img{
+        display: none;
+    }
+
+    .hero-text{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .hero-text p{
+    width: 80%;
+    text-align: center;
+    }
+
     .contact-container-img{
         display: none;
     }
