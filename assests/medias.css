@@ -361,7 +361,7 @@ display: none;
 }
 }
 
-@media(width: 261px){
+@media(width: 263px){
 .hero-buttons{
 flex-direction: column;
 gap: 10px;
