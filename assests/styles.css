@@ -57,6 +57,10 @@ header{
     color: black;
 }
 
+.navbar-list-options li a:hover{
+   color: var(--color1);
+}
+
 .logo img{
     height: 50px;
     width: 50px;
@@ -109,6 +113,17 @@ header{
     padding: 10px;
     color: var(--color4);
     background-color: var(--color1);
+}
+
+.hero-buttons .hero-button-read:hover{
+    border: 1px solid var(--color2);
+    color: var(--color2);
+}
+
+.hero-buttons .hero-button-call:hover{
+background-color: var(--color2);
+border: 1px solid var(--color2);
+color: var(--color1) ;
 }
 
 .hero-buttons .hero-button-read{
@@ -177,6 +192,12 @@ header{
     border: 3px solid var(--color1);
     padding: 25px 40px 25px 40px;
     border-radius: 0px 50px 0px 50px;
+}
+
+.services-card:hover{
+    cursor: pointer;
+    border: 3px solid var(--color2);
+    border-radius: 50px 0px 50px 0px;
 }
 
 .services-card img{
