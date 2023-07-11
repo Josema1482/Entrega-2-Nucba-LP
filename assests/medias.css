@@ -360,3 +360,15 @@ flex-direction: column;
 display: none;
 }
 }
+
+@media(width: 261px){
+.hero-buttons{
+flex-direction: column;
+gap: 10px;
+}
+
+footer{
+flex-direction: column;
+gap: 10px;}
+
+}
